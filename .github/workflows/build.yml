@@ -1,9 +1,9 @@
-name: Build FNF Web Port
+name: A Magical Friday Night Web port
 
 on:
   workflow_dispatch:
     inputs:
-      mod_url: https://gamebanana.com/dl/1241070
+      mod_url: 'https://gamebanana.com/mods/download/527369#FileInfo_1241070'
         description: 'Direct URL to your mod .zip file (Google Drive, Dropbox, MediaFire, Discord, etc.)'
         required: true
         type: string
