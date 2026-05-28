@@ -3,8 +3,8 @@ name: Build FNF Web Port
 on:
   workflow_dispatch:
     inputs:
-      mod_url:
-        description: 'https://gamebanana.com/dl/1241070'
+      mod_url:https://gamebanana.com/dl/1241070
+        description: 'Direct URL to your mod .zip file (Google Drive, Dropbox, MediaFire, Discord, etc.)'
         required: true
         type: string
 
